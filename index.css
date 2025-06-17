@@ -1,1 +1,27 @@
-/* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+body {
+    background-color: #F1F1C6; 
+  } 
+
+  .main_card {
+    width: 510px; 
+    height: 755px;  
+    background-color: white; 
+    border-radius: 15px; 
+    margin-top: 80px; 
+    margin-left: 650px;  
+  }
+  
+.card_image { 
+    width: 160px; 
+    height: 160px;  
+    margin-left: 30px; 
+}
+
+
+img { 
+    margin-left: 160px; 
+    margin-top: 20px;
+    width: 160px; 
+    height: 160px; 
+}
+
