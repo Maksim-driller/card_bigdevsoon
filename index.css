@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 body {
     background-color: #F1F1C6; 
   } 
@@ -19,9 +21,36 @@ body {
 
 
 img { 
-    margin-left: 160px; 
-    margin-top: 20px;
+    margin-top: 40px;
     width: 160px; 
-    height: 160px; 
+    height: 160px;  
+    padding-left: 130px; 
+}  
+
+
+.main_text { 
+    color: black; 
+    font-family: "Roboto Flex" sans-serif;  
+    letter-spacing: 3px;  
+    text-align: center;
+    font-size: 38px;  
+    margin-top: 60px; 
+} 
+
+
+.profile_text { 
+    color: grey ; 
+    font-size: 16px; 
+    font-family: "Roboto Flex" sans-serif;  
+    text-align: center;  
+    margin-top: 10px;
 }
 
+
+.social_icons { 
+    transform: scale(0.3) ; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 20px;  
+    padding-left: 400px; 
+}
