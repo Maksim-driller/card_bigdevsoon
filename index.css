@@ -51,6 +51,60 @@ img {
     transform: scale(0.3) ; 
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-    gap: 20px;  
-    padding-left: 400px; 
+    gap: 10px;    
+    margin: 0; 
+    padding: 0;  
+    margin-left: -240px; 
+}
+
+.second_text { 
+    font-size: 18px; 
+    font-family: 'Roboto Flex' sans-serif; 
+    letter-spacing: 1%; 
+    color: black; 
+    text-align: center;  
+}
+
+.footer_buttons { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    width: 400px; 
+    height: 57px; 
+    gap: 20px; 
+    margin-top: 50px; 
+    margin-left: 40px;
+}
+
+.button_follow {
+    border-radius: 90px;
+    cursor: pointer; 
+    background-color: #DF3F8C;
+    color: white;
+    border: 1px solid #DF3F8C; 
+} 
+
+
+.button_message { 
+    border-radius: 90px;
+    cursor: pointer;  
+    color: grey; 
+    background-color: white;
+    border: 1px solid grey; 
+} 
+
+
+.message_window { 
+    display: none; 
+    width: 500px; 
+    height: 200px; 
+    background-color: rgb(235, 235, 235);  
+    margin-top: -50px; 
+
+
+} 
+.button_closed_window { 
+    width: 200px; 
+    height: 57px;  
+    border-radius: 90%; 
+    cursor: pointer;
 }
